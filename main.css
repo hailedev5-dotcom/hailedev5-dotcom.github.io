@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color:#001a33;
     color:black
@@ -37,7 +42,7 @@ nav li {
         .verified-badge { width: 18px; height: 18px; fill: #1DA1F2}
 
 h{
-    font-size:1.5rem;
+    font-size:1.7rem;
     color:gold;
 }
 
@@ -70,7 +75,7 @@ h{
     margin: 10px;
     border-radius: 15px;
     font-family: monospace;
-    font-size: 18px;
+    font-size: 1.6rem;
 }
     
 .social-icons a {

@@ -12,7 +12,7 @@ body{
 
 nav {
     height: 100%;
-    background-color:#8279F2;
+    background-color:#ebd09b;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     top: 0;
     width: 100%;
@@ -61,42 +61,13 @@ h{
     align-items: center;
     padding: 20px;
 }
-    
-    .activities{
-    display: block;
-    width: 400px;
-    height: auto;
-    padding: 5px;
-    background-color: rgb(0, 0, 0);
-    /* background-color: rgb(43, 1, 1); */
-    /* background-color: rgb(36, 0, 0); */
-    /* color: whitesmoke; */
-    /* color: darksalmon; */
-    color: rgb(186, 150, 103);
-    margin: 10px;
-    border-radius: 15px;
-    font-family: monospace;
-    font-size: 1.6rem;
-}
-    
-.social-icons a {
+.social-icons a{
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(227, 227, 227);
-    margin: 20px 10px;
-    border-radius: 50%;
-}
-    
-.social-icons a {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(227, 227, 227);
+    background-color:rgb(227, 227, 227);
     margin: 20px 10px;
     border-radius: 50%;
 }
@@ -108,5 +79,59 @@ h{
 .social-icons img {
     width: 40px;
     height: 40px;
+    
 }
+  
+.typewriter-container {
+      display: inline-block;
+    }
+
+    .typewriter-text {
+      font-size: 2rem;
+      font-weight: bold;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid #38bdf8; /* The cursor */
+      width: 0;
+      /* Adjust 'steps(40)' based on letter count and duration to taste */
+      animation: 
+        typing 3.5s steps(40, end) forwards,
+        blink 0.75s step-end infinite;
+    }
+
+    /* Typing keyframes: reveals text from left to right */
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    /* Blinking cursor keyframes */
+    @keyframes blink {
+      from, to { border-color: transparent; }
+      50% { border-color: #38bdf8; }
+    }
+.activities{
+    width: 70%;
+    height: auto;
+    background-color: rgb(0,0,0);
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: block;
+    margin: -7% auto 20px auto;
+    margin-top: 100px;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    color:rgb(186, 150, 103);
+    font-family:monospace;
+    font-size:1.3rem;
+    text-align:center;
+    border:10px solid  #58c7c1;
+    border-block-end:12px solid blue ;
+    border-block-start:12px solid blue;
+}
+
+  
+
     

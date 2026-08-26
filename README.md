@@ -22,7 +22,7 @@ Welcome to the repository for my personal web project! This is a simple, respons
 
 ## 📸 Preview
 
-![Website Preview](https://via.placeholder.com/800x400.png?text=Website+Screenshot+Placeholder)
+![Website Preview](https://hailedev5-dotcom.github.io)
 
 ---
 

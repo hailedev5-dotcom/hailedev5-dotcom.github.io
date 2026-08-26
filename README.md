@@ -3,4 +3,8 @@
 ### Authors
 > Hailemariam tesfaye
 
-[Goto Website](https://hailemariam.github.io)
+[Goto Website](https://hailedev5-dotcom.github.io)
+###languages
+html.png
+java.png
+css.png

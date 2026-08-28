@@ -7,12 +7,12 @@ body{
     background-color:#001a33;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    background-image:url(Gemini.png)
 }
 
 #all{
     box-shadow: 2px 2px 12px #6bc1db;
-    width:97%
+    width:97%;
 }
 
 
@@ -64,26 +64,6 @@ h{
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-}
-.social-icons a{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:rgb(227, 227, 227);
-    margin: 20px 10px;
-    border-radius: 50%;
-}
-
-.social-icons {
-    display: flex;
-}
-
-.social-icons img {
-    width: 40px;
-    height: 40px;
-    
 }
   
 .typewriter-container {
@@ -184,5 +164,20 @@ footer{
     }
     50%{
         transform: translateY(-20px);
+    }
+}
+#hio{
+    color:#6bc1db;
+    font-size:20px;
+    font-weight:bold;
+    text-shadow:2px 2px 12px #6bc1db;
+    animation:moveRight2 3s ease-in-out infinite
+}
+@keyframes moveRight2{
+    0%,100%{
+        transform: translateX(43%);
+    }
+    50%{
+        transform: translateX(-43%);
     }
 }

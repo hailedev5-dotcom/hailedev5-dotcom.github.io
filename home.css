@@ -1,0 +1,26 @@
+body{
+    width:98%;
+    background-color:#225066;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(Gemini.png);
+}
+h1{
+  color:gold;
+  font-size:1.3rem;
+  background-color: silver;
+  border-radius:5px;
+    box-shadow: 2px 2px 12px silver;
+    animation:bounce 3s ease-out infinite
+}
+@keyframes bounce{
+    0%{
+        transform: translateY(40px)
+    }
+    50%{
+        transform: translateY(-40px)
+    }
+  100%{
+      transform: translateY(40px)
+  }  
+}

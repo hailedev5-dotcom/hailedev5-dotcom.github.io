@@ -4,18 +4,13 @@
     padding: 0px;
 }
 body{
-    background-color:#001a33;
+    width:98%;
+    background-color:#225066;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image:url(Gemini.png)
-}
-
-#all{
+    background-image:url(Gemini.png);
     box-shadow: 2px 2px 12px #6bc1db;
-    width:97%;
 }
-
-
 nav {
     height: 100%;
     background-color:#ebd09b;
@@ -26,22 +21,6 @@ nav {
     z-index: 100;
     position: sticky;
     border-radius: 16px;
-}
-ul {
-    list-style: none;
-    overflow: hidden;
-}
-
-a {
-    text-decoration: none;
-}
-
-nav ul{
-    display: flex;
-}
-
-nav li {
-    float: right;
 }
      .logo-area { display: flex; align-items: center; gap: 5px; font-size: 1.2rem; font-weight: 800; }
         .verified-badge { width: 18px; height: 18px; fill: #1DA1F2}
@@ -79,8 +58,9 @@ h{
       width: 0;
       /* Adjust 'steps(40)' based on letter count and duration to taste */
       animation: 
-        typing 5s steps(40, end) forwards,
+        typing 6s steps(40, end) forwards,
         blink 0.75s infinite;
+        animation-duration: -6s
     }
 
     /* Typing keyframes: reveals text from left to right */
@@ -181,3 +161,28 @@ footer{
         transform: translateX(-43%);
     }
 }
+.type-text{
+     font-size: 2rem;
+    color:gold;
+      font-weight: bold;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid #38bdf8; /* The cursor */
+      width: 0;
+      /* Adjust 'steps(40)' based on letter count and duration to taste */
+      animation: 
+        typing 5s steps(40, end) forwards,
+        blink 0.75s infinite;
+        animation-delay: 6s;
+        text-shadow:2px 2px 12px gold;
+}
+@keyframes typing2 {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    /* Blinking cursor keyframes */
+    @keyframes blink2 {
+      from, to { border-color: transparent; }
+      50% { border-color: #38bdf8; }
+    }

@@ -1,13 +1,25 @@
-
-body{
-    width:98%;
-    background-color:#225066;
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* Mobile base styles (default) */
+body { font-size: 1rem;background-color:#225066;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image:url(Gemini.png);
     box-shadow: 2px 2px 12px #6bc1db;
-}
+ }
 
+/* Tablet and larger */
+@media (min-width: 768px) {
+  body { font-size: 1.125rem;background-color:#225066;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(Gemini.png);
+    box-shadow: 2px 2px 12px #6bc1db;
+ }
+}
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);

@@ -1,10 +1,24 @@
-body{
-    width:98%;
-    background-color:#225066;
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* Mobile base styles (default) */
+body { font-size: 1rem;background-color:#225066;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image:url(Gemini.png);
     box-shadow: 2px 2px 12px #6bc1db;
+ }
+
+/* Tablet and larger */
+@media (min-width: 768px) {
+  body { font-size: 1.125rem;background-color:#225066;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(Gemini.png);
+    box-shadow: 2px 2px 12px #6bc1db;
+ }
 }
         .logo-area { display: flex; align-items: center; gap: 5px;text-align: center}
         .verified-badge { width: 18px; height: 18px; fill: #1DA1F2}

@@ -7,7 +7,6 @@
 body { font-size: 1rem;background-color:#225066;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image:url(Gemini.png);
     box-shadow: 2px 2px 12px #6bc1db;
  }
 
@@ -16,7 +15,6 @@ body { font-size: 1rem;background-color:#225066;
   body { font-size: 1.125rem;background-color:#225066;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image:url(Gemini.png);
     box-shadow: 2px 2px 12px #6bc1db;
  }
 }

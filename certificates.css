@@ -7,6 +7,7 @@
 body { font-size: 1rem;background-color:#225066;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(Gemini.png);
     box-shadow: 2px 2px 12px #6bc1db;
  }
 
@@ -15,18 +16,20 @@ body { font-size: 1rem;background-color:#225066;
   body { font-size: 1.125rem;background-color:#225066;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(Gemini.png);
     box-shadow: 2px 2px 12px #6bc1db;
  }
 }
         .logo-area { display: flex; align-items: center; gap: 5px;text-align: center}
         .verified-badge { width: 18px; height: 18px; fill: #1DA1F2}
 #title{
-    color:Gold;
+    color:gold;
     text-shadow:2px 2px 14px gold;
     background-color:#3ca1bd;
     border-radius:15px;
     border: 5px solid gold;
-    text-align:center
+    text-align:center;
+   background: linear-gradient(90deg,red,blue)
 }
     #certified{
     color:rgb(186, 150, 103);

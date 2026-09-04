@@ -4,10 +4,11 @@
     padding: 0px;
 }
 /* Mobile base styles (default) */
-body { font-size: 1rem;background-color:#225066;
+body { 
+    font-size: 1rem;
+    background-color:#225066;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-shadow: 2px 2px 12px #6bc1db;
     height:100%;
     width:100%    
  }
@@ -94,4 +95,9 @@ nav {
     z-index: 100;
     position: sticky;
     border-radius: 16px;
+}
+.flex-container {
+  display: flex;
+  justify-content:right; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
+  align-items:right; /* Aligns vertically *//* Required if you want vertical alignment */
 }

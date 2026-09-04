@@ -7,8 +7,8 @@
 body { font-size: 1rem;background-color:#225066;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image:url(Gemini.png);
-    box-shadow: 2px 2px 12px #6bc1db;
+    background-color: #225066;
+    box-shadow: 2px 2px 12px #6bc1db
  }
 
 /* Tablet and larger */
@@ -70,7 +70,10 @@ body { font-size: 1rem;background-color:#225066;
 #codeliber{
     height: 170px;
     width:250px;
-    margin-left:30px
+    align-content: center;
+    display:flex;
+    object-position: sticky;
+    position:relative
 }
 nav {
     height: 100%;
@@ -82,4 +85,14 @@ nav {
     z-index:100;
     position: sticky;
     border-radius: 16px;
+}
+.flex-container {
+  display: flex;
+  justify-content: right; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
+  align-items: right;     /* Aligns vertically *//* Required if you want vertical alignment */
+}
+.codeliber{
+  display: flex;
+  justify-content:center; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
+  align-items: center;     /* Aligns vertically *//* Required if you want vertical alignment */
 }

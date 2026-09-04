@@ -1,0 +1,13 @@
+.typewriter-text{
+  animation: typing 3.5s steps(40,end) forwards,blink 0.75s infinite;
+  color:gold
+}
+@keyframes typing{
+  from:{width:0;}
+  to:{width:100%;}
+}
+
+@keyframes blink {
+      from, to { border-color: transparent; }
+      50% { border-color: #38bdf8; }
+    }

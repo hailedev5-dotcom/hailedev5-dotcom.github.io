@@ -9,7 +9,7 @@ body { font-size: 1rem;background-color:#225066;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image:url(Gemini.png);
     box-shadow: 2px 2px 12px #6bc1db;
-    background:linear-gradient(yellow,red,blue);
+    background:linear-gradient(#00bfff,red,blue);
     height:100%;
     width:100%
  }
@@ -19,8 +19,8 @@ body { font-size: 1rem;background-color:#225066;
   body { font-size: 1.125rem;background-color:#225066;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image:url(Gemini.png);
-    box-shadow: 2px 2px 12px #6bc1db;
+      height:100%;
+      width:100%
  }
 }
 nav {
@@ -56,7 +56,11 @@ h{
     align-items: center;
     padding: 20px;
 }
-  
+ .flex-container {
+  display: flex;
+  justify-content: right; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
+  align-items: right;     /* Aligns vertically *//* Required if you want vertical alignment */
+}
 .typewriter-container {
       display: inline-block;
     }

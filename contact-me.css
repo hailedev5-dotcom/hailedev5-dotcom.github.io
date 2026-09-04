@@ -89,4 +89,9 @@ footer{
     50%{
         transform: translateX(-43%);
     }
+} 
+.flex-container {
+  display: flex;
+  justify-content: right; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
+  align-items: right;     /* Aligns vertically *//* Required if you want vertical alignment */
 }

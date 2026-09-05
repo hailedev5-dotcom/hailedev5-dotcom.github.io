@@ -1,15 +1,33 @@
-body{
-    width:98%;
-    background-color:#225066;
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* Mobile base styles (default) */
+body { font-size: 1rem;background-color:#225066;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image:url(Gemini.png);
+    background:linear-gradient(yellow,purple);
+    height:100%;
+    width:100%
+ }
+
+/* Tablet and larger */
+@media (min-width: 768px) {
+  body { font-size: 1.125rem;background-color:#225066;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      height:100%;
+      width:100%
+ }
 }
 h1{
-  color:gold;
+     background-color:silver;
+  color:transparent;
+    background:linear-gradient(90deg,cyan,purple);
+    -webkit-background-clip:text;
   font-size:1.3rem;
-  background-color: silver;
-  border-radius:5px;
+  border-radius:15px;
     box-shadow: 2px 2px 12px silver;
     animation:bounce 3s ease-out infinite
 }
@@ -24,3 +42,5 @@ h1{
       transform: translateY(40px)
   }  
 }
+    /* Aligns vertically */
+    /* Required if you want vertical align

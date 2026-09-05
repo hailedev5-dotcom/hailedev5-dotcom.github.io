@@ -9,7 +9,7 @@ body { font-size: 1rem;background-color:#225066;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image:url(Gemini.png);
     box-shadow: 2px 2px 12px #6bc1db;
-    background:linear-gradient(#00bfff,red,blue);
+    background:linear-gradient(yellow,purple);
     height:100%;
     width:100%
  }
@@ -24,7 +24,7 @@ body { font-size: 1rem;background-color:#225066;
  }
 }
 nav {
-    height:100%;
+    height:80px;
     background-color:#ebd09b;
     box-shadow: 2px 2px 12px #6bc1db;
     align-items: center;
@@ -34,12 +34,14 @@ nav {
     position: sticky;
     border-radius:16px
 }
-     .logo-area { display: flex; align-items: center; gap: 5px; font-size: 1.2rem; font-weight: 800; }
+     .logo-area { display: flex; align-items: center; gap: 5px; font-size: 1.2rem; font-weight: 800;color:transparent;background:linear-gradient(50deg,purple,blue,yellow);margin-top:-40px;margin-left:50px;-webkit-background-clip:text;}
         .verified-badge { width: 18px; height: 18px; fill: #1DA1F2}
 
 h{
     font-size:1.7rem;
-    color:gold;
+    background: linear-gradient(90deg,voilet,#ff00ff);
+    background-clip: text;
+    color:transparent
 }
 
 .about-container {
@@ -58,8 +60,9 @@ h{
 }
  .flex-container {
   display: flex;
-  justify-content: right; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
-  align-items: right;     /* Aligns vertically *//* Required if you want vertical alignment */
+  justify-content: center; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
+  align-items:center; 
+margin-bottom:-75px     /* Aligns vertically *//* Required if you want vertical alignment */
 }
 .typewriter-container {
       display: inline-block;
@@ -76,7 +79,10 @@ h{
       animation: 
         typing 6s steps(40, end) forwards,
         blink 0.75s infinite;
-        animation-duration: -6s
+        animation-duration: -6s;
+        background: linear-gradient(90deg,blue,cyan);
+        -webkit-background-clip: text;
+        color:transparent
     }
 
     /* Typing keyframes: reveals text from left to right */

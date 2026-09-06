@@ -60,9 +60,8 @@ h{
 }
  .flex-container {
   display: flex;
-  justify-content: center; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
-  align-items:center; 
-margin-bottom:-75px     /* Aligns vertically *//* Required if you want vertical alignment */
+  justify-content: right; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
+  align-items:right;/* Aligns vertically *//* Required if you want vertical alignment */
 }
 .typewriter-container {
       display: inline-block;

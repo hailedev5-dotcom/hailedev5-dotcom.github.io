@@ -93,7 +93,6 @@ nav {
   justify-content: right; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
   align-items: right;/* Aligns vertically */
     /* Required if you want vertical alignment */
-   margin-bottom: -75px 
 }
 .codeliber{
   display: flex;

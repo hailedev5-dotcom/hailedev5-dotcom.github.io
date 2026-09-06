@@ -99,9 +99,9 @@ nav {
 }
 .flex-container {
   display: flex;
-  justify-content:left; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
-  align-items:left; /* Aligns vertically *//* Required if you want vertical alignment */
-   margin-bottom:-75px
+  justify-content:right; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
+  align-items:right; /* Aligns vertically */
+    /* Required if you want vertical alignment */
 }
 .container{
     display: flex;

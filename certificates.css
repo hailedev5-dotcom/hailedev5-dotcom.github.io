@@ -55,6 +55,15 @@ body { font-size: 1rem;background-color:#225066;
     text-shadow: 4px 4px 24px #c76d00;
     animation: moveRight 10s ease-out infinite
 }
+#molar2{
+       color:transparent;
+    background: linear-gradient(90deg,yellow,purple);
+    font-size:1.3rem;
+    font-weight: bold;
+    text-shadow: 4px 4px 24px #c76d00;
+    animation: moveRight 10s ease-out infinite;
+     -webkit-background-clip:text;
+}
 @keyframes moveRight{
     0%,100%{
         transform: translateX(60%)
@@ -63,11 +72,23 @@ body { font-size: 1rem;background-color:#225066;
         transform: translateX(-50%)
     }
 }
+#mycerti2{
+    background-color:beige;
+    border-radius:9px;
+    box-shadow:4px 4px 24px #de6a7e;
+    margin-bottom: 10px;
+    font-weight:bold;
+    color:transparent;
+    background: linear-gradient(30deg,gold,lightblue);
+    -webkit-background-clip:text
+}
+
 #mycerti{
     background-color:#de6a7e;
     border-radius:9px;
     box-shadow:4px 4px 24px #de6a7e;
-    color:yellow
+    color:yellow;
+    margin-bottom: 10px
 }
 #codeliber{
     height: 170px;
@@ -98,4 +119,9 @@ nav {
   display: flex;
   justify-content:center; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
   align-items: center;     /* Aligns vertically *//* Required if you want vertical alignment */
+}
+.udacity{
+    display: flex;
+    justify-content: center;
+    align-items:center
 }

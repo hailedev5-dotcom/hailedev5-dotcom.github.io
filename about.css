@@ -4,19 +4,17 @@
     padding: 0px;
 }
 /* Mobile base styles (default) */
-body { font-size: 1rem;background-color:#225066;
+body { font-size: 1rem;background-color:#002c45;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image:url(Gemini.png);
-    box-shadow: 2px 2px 12px #6bc1db;
-    background:linear-gradient(yellow,purple);
+    box-shadow: 0px 0px 12px cyan inset;
     height:100%;
     width:100%
  }
 
 /* Tablet and larger */
 @media (min-width: 768px) {
-  body { font-size: 1.125rem;background-color:#225066;
+  body { font-size: 1.125rem;background-color:#002c45;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       height:100%;
@@ -109,4 +107,18 @@ nav {
     align-items:center;
     width:auto;
     height:100%
+}
+h5{
+    background-color:#f58764;
+    color:yellow;
+    border-radius:5px;
+    text-align:center;
+    font-size:1.3rem;
+    text-shadow:3px 3px 13px gold;
+    animation:rotate 3s ease-in infinite
+}
+@keyframes rotate{
+    0%{
+        transform:skewX(23deg)
+    }
 }

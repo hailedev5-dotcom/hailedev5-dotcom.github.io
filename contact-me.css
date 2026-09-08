@@ -6,10 +6,10 @@
 /* Mobile base styles (default) */
 body { 
     font-size: 1rem;
-    background-color:#225066;
+    background-color:#002c45;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background:linear-gradient(yellow,purple);
+   box-shadow: 0px 0px 12px cyan inset;
     height:100%;
     width:100%
  }
@@ -18,7 +18,7 @@ body {
 @media (min-width: 768px) {
   body {
       font-size: 1.125rem;
-      background-color:#225066;
+      background-color:#002c45;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       height:100%;
@@ -87,10 +87,15 @@ footer{
     animation:moveRight2 3s ease-in-out infinite
 }
 @keyframes moveRight2{
-    0%,100%{
-        transform: translateX(43%);
+    0%{
+        transform: translateX(-43%);
+        color:yellow
     }
     50%{
+       transform: translateX(43%);
+       color:gold        
+    }
+    100%{
         transform: translateX(-43%);
     }
 } 

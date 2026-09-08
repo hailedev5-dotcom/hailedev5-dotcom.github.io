@@ -4,11 +4,10 @@
     padding: 0px;
 }
 /* Mobile base styles (default) */
-body { font-size: 1rem;background-color:#225066;
+body { font-size: 1rem;background-color:#002c45;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-shadow: 2px 2px 12px #6bc1db;
-    background:linear-gradient(cyan,blue);
+    box-shadow: 0px 0px 12px cyan inset;
     height:100%;
     width:100%
  }
@@ -23,7 +22,11 @@ body { font-size: 1rem;background-color:#225066;
  }
 }
          .logo-area { display: flex; align-items: center; gap: 5px; font-size: 1.2rem; font-weight: 800;color:transparent;background:linear-gradient(50deg,purple,blue,yellow);margin-top:-40px;margin-left:50px;-webkit-background-clip:text;}
-.verified-badge { width: 18px; height: 18px; fill: #1DA1F2}
+.verified-badge {
+    width: 18px; 
+    height: 18px;
+    fill: #1DA1F2;
+}
 #title{
     color:gold;
     text-shadow:2px 2px 14px gold;
@@ -31,11 +34,11 @@ body { font-size: 1rem;background-color:#225066;
     border-radius:15px;
     border: 5px solid gold;
     text-align:center;
-   background: linear-gradient(90deg,red,blue)
+   background: linear-gradient(90deg,red,blue);
 }
     #certified{
     color:rgb(186, 150, 103);
-     box-shadow: 2px 2px 12px #6bc1db;
+     box-shadow: 2px 2px 12px crimson;
     display: block;
     margin: -7% auto 20px auto;
     margin-top: 60px;
@@ -46,7 +49,7 @@ body { font-size: 1rem;background-color:#225066;
     border-bottom-right-radius:10px;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
-    background:bisque
+        font-weight: bold
 }
 #molar{
     color:#c76d00;
@@ -84,11 +87,11 @@ body { font-size: 1rem;background-color:#225066;
 }
 
 #mycerti{
-    background-color:#de6a7e;
     border-radius:9px;
     box-shadow:4px 4px 24px #de6a7e;
     color:yellow;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    font-weight: bold
 }
 #codeliber{
     height: 170px;
@@ -124,4 +127,31 @@ nav {
     display: flex;
     justify-content: center;
     align-items:center
+}
+
+ .box {
+  display: flex;
+  justify-content:center; /* Aligns horizontally: 'flex-start', 'center', 'flex-end' */
+  align-items:center;
+     animation: rotate 3s ease-in infinite;
+     border-radius:50px;
+     margin-left:50%;
+     box-shadow: 0px 0px 12px cyan inset;
+     height:30px;
+     width:30px/* Aligns vertically */
+     /* Required if you want vertical alignment */
+}
+@keyframes rotate{
+ 0%{
+   transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+ }
+ 33%{
+   transform:rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+ }   
+  67%{
+   transform:rotateX(0deg) rotateY(180deg) rotateZ(0deg)
+  }
+  100%{
+    transform:rotate(0deg) rotateX(0deg)  rotateZ(180deg)
+  }
 }

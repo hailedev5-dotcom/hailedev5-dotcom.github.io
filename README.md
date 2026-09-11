@@ -42,4 +42,4 @@ To get a local copy up and running, follow these simple steps:
    ```bash
    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git
 ```
-   [Go to website] (hailedev5.github.io)
+  [Go to website](hailedev5.github.io)
